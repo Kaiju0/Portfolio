@@ -65,7 +65,7 @@ body {
         padding-left: 3vw;
         padding-right: 3vw;
     }
-    
+
     .nav-list {
         text-align: center;
         margin-left: 10px;
@@ -184,7 +184,7 @@ body {
     width: 45%;
     height: 45%;
     margin: 3%;
-    
+
     margin-left: 1.5%;
     position: relative;
     display: inline-block;
@@ -245,11 +245,11 @@ body {
   }
 
 .project-1-span {
-    color: var(--web1-color);
+    color: darkred;
 }
 
 .project-2-span {
-    color: var(--web2-color);
+    color: var(--web1-color);
 }
 
 .project-background-div .project-header {
@@ -299,6 +299,3 @@ body {
 .contact-div-paragraph:hover {
     transform: translateY(-5px);
 }
-
-
-
