@@ -29,9 +29,9 @@ body {
     position: fixed;
     height: var(--circle-size);
     width: var(--circle-size);
-    border: 1px solid var(--sec-color);
+    border: 1px solid white;
     border-radius: 100%;
     top: calc(var(--circle-size) / 2 * -1);
     left: calc(var(--circle-size) / 2 * -1);
     pointer-events: none;
-}
+  }
