@@ -14,7 +14,7 @@ window.addEventListener("mousemove", (e) => {
 });
 
 
-const speed = 0.3;
+const speed = 0.35;
 
 const tick = () => {
 

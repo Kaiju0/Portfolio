@@ -1,13 +1,22 @@
+
+
+
 :root {
     --main-color: #000000;
     --sec-color: #ffffff;
+}
+
+@font-face {
+    font-family: 'liham';
+    src: url('Liham.otf') format('woff2'),;
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Sora', sans-serif;
     color: var(--sec-color);
 }
 
@@ -16,12 +25,15 @@ html {
   }
   
 body {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     align-items: center;
     background-size: cover;
     background-color: var(--main-color);
+}
+
+.home {
+    height: 100vh;
+    width: 100vw;
 }
 
 .circle {
@@ -29,9 +41,49 @@ body {
     position: fixed;
     height: var(--circle-size);
     width: var(--circle-size);
-    border: 1px solid white;
+    border: 1px solid var(--sec-color);
     border-radius: 100%;
     top: calc(var(--circle-size) / 2 * -1);
     left: calc(var(--circle-size) / 2 * -1);
     pointer-events: none;
+    z-index: 2;
   }
+
+.header-name {
+    width: 61.4vw;
+    height: 97px;
+    padding-top: 5px;
+    margin-top: 40px;
+    font-family: 'liham', sans-serif;
+    font-weight: bold;
+    font-size: 3.3vw;
+    text-align: left;
+    letter-spacing: 5px;
+    transform: translate(17%);
+    cursor: default;
+}
+
+.header-name > span {
+    transition: 0.25s ease-in-out;
+    padding: 0;
+    margin: 0;
+}
+
+.header-name > span:hover {
+    opacity: 0;
+}
+
+.image {
+    width: 80vw;
+    transform: translate(13%, 120px);
+    background-image: url(../images/dots.jpg);
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    transition: .8s ease-in-out;
+    transition-delay: 1s;
+    animation: image-flicker 10s;
+}
+
+.image:hover {
+    filter: invert();
+}
