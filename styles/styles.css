@@ -24,7 +24,8 @@
 }
 
 *:not(.circle) {
-    transition-delay: 1s;
+    transition: .8s ease-in-out;
+    transition-delay: 0.2s;
 }
 
 html {
@@ -77,66 +78,71 @@ body {
     margin: 0;
     animation-name: name-flicker;
     animation-duration: 0.8s;
-    animation-iteration-count: infinite;
 }
 .header-name > span:hover {
     opacity: 0;
 }
 
-.name-animation-025s {
+.name-025s {
     animation-delay: 0.25s;
+    color: aqua;
 }
-.name-animation-025s {
+.name-025s {
     animation-delay: 0.50s;
+    color: blue;
 }
-.name-animation-075s {
+.name-075s {
     animation-delay: 0.75s;
+    color: red;
 }
-.name-animation-100s {
+.name-100s {
     animation-delay: 1s;
+    color: rebeccapurple;
 }
-.name-animation-125s {
+.name-125s {
     animation-delay: 1.25s;
+    color: green;
 }
-.name-animation-150s {
+.name-150s {
     animation-delay: 1.50s;
+    color: greenyellow;
 }
-.name-animation-175s {
+/* .name-175s {
     animation-delay: 1.75s;
 }
-.name-animation-200s {
+.name-200s {
     animation-delay: 2s;
 }
-.name-animation-225s {
+.name-225s {
     animation-delay: 2.25s;
 }
-.name-animation-250s {
+.name-250s {
     animation-delay: 2.5s;
 }
-.name-animation-275s {
+.name-275s {
     animation-delay: 2.75s;
 }
-.name-animation-300s {
+.name-300s {
     animation-delay: 3s;
 }
-.name-animation-325s {
+.name-325s {
     animation-delay: 3.25s;
 }
-.name-animation-350s {
+.name-350s {
     animation-delay: 3.5s;
 }
-.name-animation-375s {
+.name-375s {
     animation-delay: 3.75s;
 }
-.name-animation-400s {
+.name-400s {
     animation-delay: 4s;
 }
-.name-animation-425s {
+.name-425s {
     animation-delay: 4.25s;
 }
-.name-animation-450s {
+.name-450s {
     animation-delay: 4.50s;
-}
+} */
 
 
 .image {
