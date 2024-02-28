@@ -1,3 +1,9 @@
+@keyframes name-flicker {
+    0% {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+
 :root {
     --main-color: #000000;
     --sec-color: #ffffff;
@@ -15,6 +21,10 @@
     padding: 0;
     margin: 0;
     color: var(--sec-color);
+}
+
+*:not(.circle) {
+    transition-delay: 1s;
 }
 
 html {
@@ -65,11 +75,69 @@ body {
     transition: 0.25s ease-in-out;
     padding: 0;
     margin: 0;
+    animation-name: name-flicker;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
 }
-
 .header-name > span:hover {
     opacity: 0;
 }
+
+.name-animation-025s {
+    animation-delay: 0.25s;
+}
+.name-animation-025s {
+    animation-delay: 0.50s;
+}
+.name-animation-075s {
+    animation-delay: 0.75s;
+}
+.name-animation-100s {
+    animation-delay: 1s;
+}
+.name-animation-125s {
+    animation-delay: 1.25s;
+}
+.name-animation-150s {
+    animation-delay: 1.50s;
+}
+.name-animation-175s {
+    animation-delay: 1.75s;
+}
+.name-animation-200s {
+    animation-delay: 2s;
+}
+.name-animation-225s {
+    animation-delay: 2.25s;
+}
+.name-animation-250s {
+    animation-delay: 2.5s;
+}
+.name-animation-275s {
+    animation-delay: 2.75s;
+}
+.name-animation-300s {
+    animation-delay: 3s;
+}
+.name-animation-325s {
+    animation-delay: 3.25s;
+}
+.name-animation-350s {
+    animation-delay: 3.5s;
+}
+.name-animation-375s {
+    animation-delay: 3.75s;
+}
+.name-animation-400s {
+    animation-delay: 4s;
+}
+.name-animation-425s {
+    animation-delay: 4.25s;
+}
+.name-animation-450s {
+    animation-delay: 4.50s;
+}
+
 
 .image {
     width: 80vw;
@@ -79,7 +147,7 @@ body {
     background-repeat: no-repeat;
     cursor: pointer;
     transition: .8s ease-in-out;
-    transition-delay: 1s;
+    transition-delay: 0.2s;
 }
 
 .invert-image {
@@ -90,7 +158,7 @@ body {
     background-repeat: no-repeat;
     cursor: pointer;
     transition: .8s ease-in-out;
-    transition-delay: 1s;
+    transition-delay: 0.2s;
     filter: invert();
 }
 
