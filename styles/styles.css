@@ -82,6 +82,22 @@ body {
     transition-delay: 1s;
 }
 
+.invert-image {
+    width: 80vw;
+    transform: translate(13%, 120px);
+    background-image: url(../images/dots.jpg);
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: .8s ease-in-out;
+    transition-delay: 1s;
+    filter: invert();
+}
+
 .image:hover {
     filter: invert();
+}
+
+.invert-image:hover {
+    filter: none;
 }
