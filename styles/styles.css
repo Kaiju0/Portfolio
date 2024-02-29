@@ -1,6 +1,6 @@
 @keyframes name-flicker {
     0% {opacity: 0;}
-    100% {opacity: 100;}
+    100% {opacity: 1;}
 }
 
 
@@ -78,36 +78,32 @@ body {
     margin: 0;
     animation-name: name-flicker;
     animation-duration: 0.8s;
+    animation-iteration-count: 2;
 }
+
 .header-name > span:hover {
     opacity: 0;
 }
 
 .name-025s {
     animation-delay: 0.25s;
-    color: aqua;
 }
 .name-025s {
     animation-delay: 0.50s;
-    color: blue;
 }
 .name-075s {
     animation-delay: 0.75s;
-    color: red;
 }
 .name-100s {
     animation-delay: 1s;
-    color: rebeccapurple;
 }
 .name-125s {
     animation-delay: 1.25s;
-    color: green;
 }
 .name-150s {
     animation-delay: 1.50s;
-    color: greenyellow;
 }
-/* .name-175s {
+.name-175s {
     animation-delay: 1.75s;
 }
 .name-200s {
@@ -142,7 +138,7 @@ body {
 }
 .name-450s {
     animation-delay: 4.50s;
-} */
+}
 
 
 .image {
