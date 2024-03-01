@@ -46,7 +46,7 @@ body {
 }
 
 .circle {
-    --circle-size: 40px;
+    --circle-size: 50px;
     position: fixed;
     height: var(--circle-size);
     width: var(--circle-size);
@@ -77,7 +77,7 @@ body {
     padding: 0;
     margin: 0;
     animation-name: name-flicker;
-    animation-duration: 0.8s;
+    animation-duration: 0.6s;
     animation-iteration-count: 2;
 }
 
@@ -88,57 +88,52 @@ body {
 .name-025s {
     animation-delay: 0.25s;
 }
-.name-025s {
+.name-030s {
+    animation-delay: 0.30s;
+}
+.name-035s {
+    animation-delay: 0.35s;
+}
+.name-040s {
+    animation-delay: 0.40s;
+}
+.name-045s {
+    animation-delay: 0.45s;
+}
+.name-050s {
     animation-delay: 0.50s;
+}
+.name-055s {
+    animation-delay: 0.55s;
+}
+.name-060s {
+    animation-delay: 0.60s;
+}
+.name-065s {
+    animation-delay: 0.65s;
+}
+.name-070s {
+    animation-delay: 0.70s;
 }
 .name-075s {
     animation-delay: 0.75s;
 }
+.name-080s {
+    animation-delay: 0.80s;
+}
+.name-085s {
+    animation-delay: 0.85s;
+}
+.name-090s {
+    animation-delay: 0.90s;
+}
+.name-095s {
+    animation-delay: 0.95s;
+}
 .name-100s {
     animation-delay: 1s;
 }
-.name-125s {
-    animation-delay: 1.25s;
-}
-.name-150s {
-    animation-delay: 1.50s;
-}
-.name-175s {
-    animation-delay: 1.75s;
-}
-.name-200s {
-    animation-delay: 2s;
-}
-.name-225s {
-    animation-delay: 2.25s;
-}
-.name-250s {
-    animation-delay: 2.5s;
-}
-.name-275s {
-    animation-delay: 2.75s;
-}
-.name-300s {
-    animation-delay: 3s;
-}
-.name-325s {
-    animation-delay: 3.25s;
-}
-.name-350s {
-    animation-delay: 3.5s;
-}
-.name-375s {
-    animation-delay: 3.75s;
-}
-.name-400s {
-    animation-delay: 4s;
-}
-.name-425s {
-    animation-delay: 4.25s;
-}
-.name-450s {
-    animation-delay: 4.50s;
-}
+
 
 
 .image {
