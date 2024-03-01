@@ -16,6 +16,33 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Big Shoulder Display SemiBold';
+    src: url(BigShouldersDisplay-SemiBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--sec-color);
+}
+::-webkit-scrollbar-track:hover {
+    background-color: var(--main-color);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--sec-color);
+}
+::-webkit-scrollbar-track:active {
+    background-color: var(--main-color);
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: var(--sec-color);
+}
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -33,20 +60,17 @@ html {
   }
   
 body {
-    display: flex;
-    align-items: center;
     background-size: cover;
     background-color: var(--main-color);
 }
 
-.home {
-    height: 100vh;
-    width: 100vw;
-    margin-right: 2px;
+.home-page {
+    height: 98.75vh;
+    width: 98.75vw;
 }
 
 .circle {
-    --circle-size: 50px;
+    --circle-size: 30px;
     position: fixed;
     height: var(--circle-size);
     width: var(--circle-size);
@@ -68,7 +92,7 @@ body {
     font-size: 3.3vw;
     text-align: left;
     letter-spacing: 5px;
-    transform: translate(17%);
+    transform: translate(16%);
     cursor: default;
 }
 
@@ -136,7 +160,7 @@ body {
 
 
 
-.image {
+.button-image {
     width: 80vw;
     transform: translate(13%, 120px);
     background-image: url(../images/dots.jpg);
@@ -149,7 +173,7 @@ body {
 
 .invert-image {
     width: 80vw;
-    transform: translate(13%, 120px);
+    transform: translate(12%, 120px);
     background-image: url(../images/dots.jpg);
     background-size: 100%; 
     background-repeat: no-repeat;
@@ -159,10 +183,58 @@ body {
     filter: invert();
 }
 
-.image:hover {
+.button-image:hover {
     filter: invert();
 }
 
 .invert-image:hover {
     filter: none;
 }
+
+.content-div {
+    height: auto;
+    width: 98.75vw;
+    margin-top: 100px;
+}
+
+.content-container {
+    width: 98.75vw;
+    padding-bottom: 5px;
+}
+
+.content-header {
+    font-family: 'Big Shoulder Display SemiBold', sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    border-bottom: 2px solid var(--sec-color);
+    width: 80vw;
+    text-align: left;
+    margin-left: 10.5%;
+    letter-spacing: 3px;
+    cursor: default;
+}
+
+.pictures-header > span:hover {
+    opacity: 0;
+    transition: 0.25s ease-in-out;
+}
+
+.pictures-elements {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 50px;
+    margin-left: 10.5%;
+    width: 80vw;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+.images {
+    height: 50vw;
+    width: auto; 
+}
+
+

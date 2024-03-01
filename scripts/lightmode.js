@@ -19,19 +19,19 @@ function revertColor() {
 };
 
 
-const homeImage = document.querySelector('.image');
+const homeImage = document.querySelector('.button-image');
 
 
 function invertImage() {
     
-    homeImage.classList.remove('image');
+    homeImage.classList.remove('button-image');
     homeImage.classList.add('invert-image');
 }
 
 function revertImage() {
     
     homeImage.classList.remove('invert-image');
-    homeImage.classList.add('image');
+    homeImage.classList.add('button-image');
 }
 
 
