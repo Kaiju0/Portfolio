@@ -228,8 +228,8 @@ body {
     overflow: scroll;
 }
 
-::-webkit-scrollbar {
-    width: 5px;
+.pictures-elements::-webkit-scrollbar {
+    height: 5px;
 }
 
 .images {
