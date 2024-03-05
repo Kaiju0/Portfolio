@@ -173,7 +173,7 @@ body {
     background-repeat: no-repeat;
     cursor: pointer;
     transition: .8s ease-in-out;
-    transition-delay: 0.2s;
+    transition-delay: 1s;
 }
 
 .invert-image {
@@ -184,7 +184,7 @@ body {
     background-repeat: no-repeat;
     cursor: pointer;
     transition: .8s ease-in-out;
-    transition-delay: 0.2s;
+    transition-delay: 1s;
     filter: invert();
 }
 
