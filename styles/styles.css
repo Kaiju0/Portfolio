@@ -42,7 +42,6 @@
     background-color: var(--sec-color);
 }
 
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -212,7 +211,7 @@ body {
     text-align: left;
     margin-left: 10.5%;
     letter-spacing: 3px;
-    cursor: default;
+    cursor: pointer;
 }
 
 .content-header > span:hover {
@@ -233,11 +232,19 @@ body {
     padding-bottom: 20px;
     overflow: scroll;
     overflow-y: hidden;
+    transition: height 2s ease-in-out;
 }
 
 .pictures-elements::-webkit-scrollbar {
     height: 5px;
 }
+
+.pictures-elements.collapsed {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: height 2s ease-in-out;
+}  
 
 .pictures {
     height: 80vh;
