@@ -232,7 +232,7 @@ body {
     padding-bottom: 20px;
     overflow: scroll;
     overflow-y: hidden;
-    transition: height 2s ease-in-out;
+    transition: 1s;
 }
 
 .pictures-elements::-webkit-scrollbar {
@@ -251,4 +251,3 @@ body {
     width: auto;
     border: 1px var(--sec-color) solid;
 }
-
