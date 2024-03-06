@@ -72,6 +72,19 @@ body {
     .circle {
       opacity: 0;
     }
+    .home-page {
+        height: 60vh;
+    }
+    .header-name > span {
+        font-size: 20px;
+        width: fit-content;
+    }
+    .button-image, .invert-image {
+        transform: translate(13%, 40px);
+    }
+    .content-header {
+        font-size: 200px;
+    }
   }
 
 .circle {
@@ -89,7 +102,7 @@ body {
 
 .header-name {
     width: 65vw;
-    height: 97px;
+    height: auto;
     padding-top: 5px;
     margin-top: 40px;
     font-family: 'liham', sans-serif;
@@ -163,11 +176,9 @@ body {
     animation-delay: 1s;
 }
 
-
-
-.button-image {
+.button-image, .invert-image {
     width: 80vw;
-    transform: translate(13%, 120px);
+    transform: translate(13%, 50px);
     background-image: url(../images/dots.jpg);
     background-size: 100%; 
     background-repeat: no-repeat;
@@ -177,14 +188,6 @@ body {
 }
 
 .invert-image {
-    width: 80vw;
-    transform: translate(12%, 120px);
-    background-image: url(../images/dots.jpg);
-    background-size: 100%; 
-    background-repeat: no-repeat;
-    cursor: pointer;
-    transition: .8s ease-in-out;
-    transition-delay: 1s;
     filter: invert();
 }
 
