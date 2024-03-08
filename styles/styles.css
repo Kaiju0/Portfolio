@@ -73,13 +73,16 @@ body {
       opacity: 0!important;
     }
     .home-page {
-        height: 65vh;
+        height: 98.75vh;
+        width: 98.75vw;
     }
     .header-name {
-        transform: rotate(90deg) translate(120px, -250%)!important;
-        width: auto;
+        transform: rotate(90deg) translate(120px, -200%)!important;
+        width: fit-content;
+        margin: 0;
     }
     .header-name > span {
+        margin: 0;
         font-size: 25px;
         width: fit-content;
     }
