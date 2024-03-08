@@ -61,6 +61,7 @@ html {
 body {
     background-size: cover;
     background-color: var(--main-color);
+    overflow-x: hidden;
 }
 
 .home-page {
@@ -73,26 +74,26 @@ body {
       opacity: 0!important;
     }
     .home-page {
-        height: 98.75vh;
+        height: 80vh;
         width: 98.75vw;
     }
     .header-name {
-        transform: rotate(90deg) translate(120px, -200%)!important;
+        transform: rotate(90deg) translate(42%, -275%)!important;
         width: fit-content;
         margin: 0;
     }
     .header-name > span {
         margin: 0;
-        font-size: 25px;
+        font-size: 20px;
         width: fit-content;
     }
     .button-image, .invert-image {
-        transform: rotate(90deg) translate(80px, 75%)!important;
+        transform: rotate(90deg) translate(20%, 75%)!important;
         width: auto!important;
         height: 35.6vw!important;
     }
     .content-container {
-        margin-top: 200px;
+        margin-top: 20vh!important;
     }
     .content-header {
         font-size: 3vh!important;
@@ -100,6 +101,7 @@ body {
     .pictures {
         width: 65vw!important;
         height: 65vw!important;
+        filter: none!important;
     }
   }
 
