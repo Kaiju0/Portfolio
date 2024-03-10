@@ -65,7 +65,7 @@ body {
 }
 
 .home-page {
-    height: 98.75vh;
+    height: auto;
     width: 98.75vw;
 }
 
@@ -74,7 +74,7 @@ body {
         opacity: 0!important;
     }
     .home-page {
-        height: 80vh;
+        height: auto;
         width: 98.75vw!important;
         overflow: hidden;
     }
@@ -222,6 +222,7 @@ body {
     width: 98.75vw;
     height: auto;
     padding-bottom: 5px;
+    margin-top: 100px;
 }
 
 .content-header {
@@ -285,7 +286,7 @@ body {
     width: 80vw;
     margin-top: 20px;
     margin-left: 10.5%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(auto, 1fr);
@@ -314,3 +315,36 @@ body {
     margin-bottom: 0;
     transition: height 2s ease-in-out;
 }  
+
+.contact-elements {
+    width: 80vw;
+    margin-top: 20px;
+    margin-left: 10.5%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    transition: 1s;
+}
+
+.contact-elements.collapsed {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+    transition: height 2s ease-in-out;
+}  
+
+.number-header, .mail-header {
+    font-family: 'Big Shoulder Display SemiBold', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    border-bottom: 2px solid var(--sec-color);
+    width: 60vw;
+    text-align: center;
+    margin-left: 10.5%;
+    letter-spacing: 3px;
+    cursor: default;
+    margin-bottom: 20px;
+    padding: 2px;
+}
+
+

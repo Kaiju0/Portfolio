@@ -8,5 +8,10 @@ function toggleSitesElements() {
     sitesElements.classList.toggle('collapsed');
   }
 
+function toggleContactElements() {
+    var contactElements = document.querySelector('.contact-elements');
+    contactElements.classList.toggle('collapsed');
+  }
+
 
   
