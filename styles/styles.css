@@ -79,7 +79,7 @@ body {
         overflow: hidden;
     }
     .header-name {
-        transform: rotate(90deg) translate(15vh, -47vw)!important;
+        transform: rotate(90deg) translate(14vh, -47vw)!important;
         width: fit-content;
         margin: 0;
     }
@@ -89,7 +89,7 @@ body {
         width: fit-content;
     }
     .button-image, .invert-image {
-        transform: rotate(90deg) translate(21vh, 42vw)!important;
+        transform: rotate(90deg) translate(19.5vh, 42vw)!important;
         width: auto!important;
         height: 49vw!important;
     }
